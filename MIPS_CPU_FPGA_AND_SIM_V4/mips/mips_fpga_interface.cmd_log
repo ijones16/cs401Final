@@ -1,0 +1,73 @@
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf -ucf mips_fpga_interface.ucf 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf -ucf mips_fpga_interface.ucf 
+bitgen -intstyle ise -f mips_fpga_interface.ut mips_fpga_interface.ncd 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf -ucf mips_fpga_interface.ucf 
+bitgen -intstyle ise -f mips_fpga_interface.ut mips_fpga_interface.ncd 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf -ucf mips_fpga_interface.ucf 
+bitgen -intstyle ise -f mips_fpga_interface.ut mips_fpga_interface.ncd 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf -ucf mips_fpga_interface.ucf 
+bitgen -intstyle ise -f mips_fpga_interface.ut mips_fpga_interface.ncd 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf -ucf mips_fpga_interface.ucf 
+bitgen -intstyle ise -f mips_fpga_interface.ut mips_fpga_interface.ncd 
+xst -intstyle ise -ifn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.xst" -ofn "C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf -ucf mips_fpga_interface.ucf 
+bitgen -intstyle ise -f mips_fpga_interface.ut mips_fpga_interface.ncd 
+xst -intstyle ise -ifn "C:/CS401/MIPS_CPU_FPGA_AND_SIM_V3/mips/mips_fpga_interface.xst" -ofn "C:/CS401/MIPS_CPU_FPGA_AND_SIM_V3/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "C:/CS401/MIPS_CPU_FPGA_AND_SIM_V3/mips/mips_fpga_interface.xst" -ofn "C:/CS401/MIPS_CPU_FPGA_AND_SIM_V3/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf -ucf mips_fpga_interface.ucf 
+bitgen -intstyle ise -f mips_fpga_interface.ut mips_fpga_interface.ncd 
+xst -intstyle ise -ifn "Z:/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Z:/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.ucf -p xc3s1000-ft256-5 mips_fpga_interface.ngc mips_fpga_interface.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o mips_fpga_interface_map.ncd mips_fpga_interface.ngd mips_fpga_interface.pcf 
+par -w -intstyle ise -ol high -t 1 mips_fpga_interface_map.ncd mips_fpga_interface.ncd mips_fpga_interface.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips_fpga_interface.twx mips_fpga_interface.ncd -o mips_fpga_interface.twr mips_fpga_interface.pcf 
+bitgen -intstyle ise -f mips_fpga_interface.ut mips_fpga_interface.ncd 
+vhdtdtfi -lib work ../mips_decoder_main.vhd -lib work ../mips_decoder_alu.vhd -lib work ../mips_building_blocks.vhd -lib work ../mips_alu.vhd -lib work ../mips_datapath.vhd -lib work ../mips_controller.vhd -lib work ../mips_mem.vhd -lib work ../mips.vhd -lib work ../mips_top.vhd -lib work ../mips_fpga_interface.vhd -prj mips -o mips_fpga_interface.spl -module mips_fpga_interface -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 mips_fpga_interface.spl Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.sym 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
+xst -intstyle ise -ifn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.xst" -ofn "Z:/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips/mips_fpga_interface.syr" 
