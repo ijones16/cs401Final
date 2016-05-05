@@ -1,0 +1,15 @@
+Add
+Addi
+Add Unsigned
+Subtract
+Subtract Unsigned
+And
+Or
+Shift Left
+Shift Right
+Set less then
+Load Word
+Store Word
+Branch on Equal
+Branch On Not Equal
+Jump
