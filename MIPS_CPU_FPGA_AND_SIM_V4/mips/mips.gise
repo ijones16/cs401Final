@@ -31,21 +31,15 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="alu_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="aludec.prj"/>
-    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="aludec.stx"/>
-    <file xil_pn:fileType="FILE_XST" xil_pn:name="aludec.xst"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="aludec_isim_beh.exe"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="datapath_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dmem.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dmem.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="dmem.xst"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="imem_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="imem_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="maindec_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="maindec_stx_beh.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="mips_fpga_interface.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="mips_fpga_interface.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="mips_fpga_interface.bld"/>
@@ -61,9 +55,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="mips_fpga_interface.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mips_fpga_interface.prj"/>
     <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="mips_fpga_interface.ptwx"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="mips_fpga_interface.spl"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="mips_fpga_interface.stx"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="mips_fpga_interface.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="mips_fpga_interface.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="mips_fpga_interface.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="mips_fpga_interface.twx" xil_pn:subbranch="Par"/>
@@ -90,7 +82,6 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mips_fpga_interface_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mips_fpga_interface_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mips_stx_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sl2_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testbench_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testbench_isim_beh.wdb"/>
@@ -119,13 +110,16 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1457026763" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1457026763">
+    <transform xil_pn:end_ts="1457026737" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1457026736">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1460952804" xil_pn:in_ck="4821321220336335611" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1460952804">
+    <transform xil_pn:end_ts="1462341702" xil_pn:in_ck="1972854568364640684" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1462341701">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="../mips.vhd"/>
       <outfile xil_pn:name="../mips_alu.vhd"/>
       <outfile xil_pn:name="../mips_building_blocks.vhd"/>
@@ -137,22 +131,24 @@
       <outfile xil_pn:name="../mips_mem.vhd"/>
       <outfile xil_pn:name="../mips_testbench.vhd"/>
       <outfile xil_pn:name="../mips_top.vhd"/>
+      <outfile xil_pn:name="ex04test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1460952836" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8807761803313408874" xil_pn:start_ts="1460952836">
+    <transform xil_pn:end_ts="1460952844" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8807761803313408874" xil_pn:start_ts="1460952844">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1460952836" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-561788914244653534" xil_pn:start_ts="1460952836">
+    <transform xil_pn:end_ts="1460952844" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-561788914244653534" xil_pn:start_ts="1460952844">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1457026763" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-9045163380246922679" xil_pn:start_ts="1457026763">
+    <transform xil_pn:end_ts="1457026737" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-9045163380246922679" xil_pn:start_ts="1457026737">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1460952804" xil_pn:in_ck="4821321220336335611" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1460952804">
+    <transform xil_pn:end_ts="1462341702" xil_pn:in_ck="1972854568364640684" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1462341702">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="../mips.vhd"/>
       <outfile xil_pn:name="../mips_alu.vhd"/>
       <outfile xil_pn:name="../mips_building_blocks.vhd"/>
@@ -164,11 +160,14 @@
       <outfile xil_pn:name="../mips_mem.vhd"/>
       <outfile xil_pn:name="../mips_testbench.vhd"/>
       <outfile xil_pn:name="../mips_top.vhd"/>
+      <outfile xil_pn:name="ex04test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1460952845" xil_pn:in_ck="4821321220336335611" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-122521137738725379" xil_pn:start_ts="1460952836">
+    <transform xil_pn:end_ts="1462341714" xil_pn:in_ck="1972854568364640684" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-122521137738725379" xil_pn:start_ts="1462341702">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
@@ -176,11 +175,12 @@
       <outfile xil_pn:name="testbench_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1460952845" xil_pn:in_ck="8404328669479652850" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7933495273019364810" xil_pn:start_ts="1460952845">
+    <transform xil_pn:end_ts="1462341714" xil_pn:in_ck="-7635310960991780842" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7933495273019364810" xil_pn:start_ts="1462341714">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="testbench_isim_beh.wdb"/>
@@ -213,12 +213,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1457935785" xil_pn:in_ck="4740336067104779112" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-4041751680118680941" xil_pn:start_ts="1457935725">
+    <transform xil_pn:end_ts="1457937989" xil_pn:in_ck="4740336067104779112" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-4041751680118680941" xil_pn:start_ts="1457937963">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
@@ -241,11 +242,13 @@
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1394595016" xil_pn:in_ck="-6903444084185088958" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-78394191052752879" xil_pn:start_ts="1394595009">
-      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="mips_fpga_interface.bld"/>

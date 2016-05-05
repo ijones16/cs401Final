@@ -80,7 +80,7 @@ architecture behave of imem is
 							 severity error;
 					  end if;
 					end loop;
-					
+					 
 					-- set the 32 bit binary value in ram
 					RAM(index) := std_logic_vector(result);
 					index := index + 1;
@@ -92,7 +92,7 @@ architecture behave of imem is
 begin
   process ( a ) is
     -- use the impure function to read RAM from a file and store in the FPGA's ram memory
-  	 variable mem: ramtype := InitRamFromFile("EX04.dat");
+  	 variable mem: ramtype := InitRamFromFile("EX04.dat"); 
   begin
       rd <= mem( to_integer(unsigned(a)) );
   end process;

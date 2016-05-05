@@ -1,4 +1,4 @@
-V3 106
+V3 114
 FL //cs1/cs_classdata/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd 2014/03/09.14:58:11 P.20131013
 FL //cs1/cs_classdata/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd 2014/03/11.20:26:29 P.20131013
 FL //cs1/cs_classdata/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd 2014/03/09.15:05:48 P.20131013
@@ -9,130 +9,121 @@ FL //cs1/cs_classdata/401_Computer_Architecture/Session_07_MIPS_Architecture/MIP
 FL //cs1/cs_classdata/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd 2014/03/09.16:35:30 P.20131013
 FL //cs1/cs_classdata/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd 2014/03/09.14:45:30 P.20131013
 FL //cs1/cs_classdata/401_Computer_Architecture/Session_07_MIPS_Architecture/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd 2014/03/09.18:15:26 P.20131013
-FL //cs1/cs_students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd 2016/04/17.21:02:13 P.20131013
-EN work/dmem 1460952143 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd \
-      PB ieee/std_logic_1164 1370735607 PB std/TEXTIO 1370735606 \
-      PB ieee/STD_LOGIC_UNSIGNED 1370735609 PB ieee/NUMERIC_STD 1370735611
-AR work/dmem/behave 1460952144 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd \
-      EN work/dmem 1460952143
-EN work/imem 1460952145 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd \
-      PB ieee/std_logic_1164 1370735607 PB std/TEXTIO 1370735606 \
-      PB ieee/STD_LOGIC_UNSIGNED 1370735609 PB ieee/NUMERIC_STD 1370735611
-AR work/imem/behave 1460952146 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd \
-      EN work/imem 1460952145
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd 2016/03/13.23:08:24 P.20131013
-EN work/mips 1457935754 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd \
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd 2016/04/17.14:32:44 P.20131013
+EN work/mips 1460952693 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd \
       PB ieee/std_logic_1164 1370735607
-AR work/mips/struct 1457935755 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd \
-      EN work/mips 1457935754 CP controller CP datapath
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd 2014/03/11.20:26:29 P.20131013
-EN work/alu 1457935744 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd \
+AR work/mips/struct 1460952694 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd \
+      EN work/mips 1460952693 CP controller CP datapath
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd 2016/04/17.14:15:39 P.20131013
+EN work/alu 1460952683 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd \
       PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
-AR work/alu/behave 1457935745 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd \
-      EN work/alu 1457935744
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd 2016/03/13.22:59:14 P.20131013
-EN work/regfile 1457935728 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+AR work/alu/behave 1460952684 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd \
+      EN work/alu 1460952683
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd 2016/04/17.21:03:05 P.20131013
+EN work/regfile 1460952667 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
       PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609 \
       PB ieee/NUMERIC_STD 1370735611
-EN work/adder 1457935729 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+EN work/adder 1460952668 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
       PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
-EN work/sl2 1457935730 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+EN work/sl2 1460952669 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
       PB ieee/std_logic_1164 1370735607
-EN work/signext 1457935731 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+EN work/signext 1460952670 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
       PB ieee/std_logic_1164 1370735607
-EN work/zeroext 1457935732 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+EN work/zeroext 1460952671 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
       PB ieee/std_logic_1164 1370735607
-EN work/flopr 1457935733 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+EN work/flopr 1460952672 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
       PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611
-EN work/mux2 1457935734 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+EN work/mux2 1460952673 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
       PB ieee/std_logic_1164 1370735607
-EN work/mux3 1457935735 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+EN work/mux3 1460952674 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
       PB ieee/std_logic_1164 1370735607
-AR work/regfile/behave 1457935736 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
-      EN work/regfile 1457935728
-AR work/adder/behave 1457935737 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
-      EN work/adder 1457935729
-AR work/sl2/behave 1457935738 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
-      EN work/sl2 1457935730
-AR work/signext/behave 1457935739 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
-      EN work/signext 1457935731
-AR work/zeroext/behave 1457935740 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
-      EN work/zeroext 1457935732
-AR work/flopr/asynchronous 1457935741 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
-      EN work/flopr 1457935733
-AR work/mux2/behave 1457935742 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
-      EN work/mux2 1457935734
-AR work/mux3/behave 1457935743 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
-      EN work/mux3 1457935735
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd 2016/03/13.22:45:14 P.20131013
-EN work/controller 1457935750 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd \
+AR work/regfile/behave 1460952675 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+      EN work/regfile 1460952667
+AR work/adder/behave 1460952676 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+      EN work/adder 1460952668
+AR work/sl2/behave 1460952677 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+      EN work/sl2 1460952669
+AR work/signext/behave 1460952678 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+      EN work/signext 1460952670
+AR work/zeroext/behave 1460952679 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+      EN work/zeroext 1460952671
+AR work/flopr/asynchronous 1460952680 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+      EN work/flopr 1460952672
+AR work/mux2/behave 1460952681 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+      EN work/mux2 1460952673
+AR work/mux3/behave 1460952682 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd \
+      EN work/mux3 1460952674
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd 2016/04/17.14:32:02 P.20131013
+EN work/controller 1460952689 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd \
       PB ieee/std_logic_1164 1370735607
-AR work/controller/struct 1457935751 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd \
-      EN work/controller 1457935750 CP maindec CP aludec
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd 2016/03/13.22:51:37 P.20131013
-EN work/datapath 1457935752 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd \
+AR work/controller/struct 1460952690 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd \
+      EN work/controller 1460952689 CP maindec CP aludec
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd 2016/04/17.14:42:15 P.20131013
+EN work/datapath 1460952691 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd \
       PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611
-AR work/datapath/struct 1457935753 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd \
-      EN work/datapath 1457935752 CP flopr CP adder CP sl2 CP mux2 CP regfile \
+AR work/datapath/struct 1460952692 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd \
+      EN work/datapath 1460952691 CP flopr CP adder CP sl2 CP mux2 CP regfile \
       CP signext CP zeroext CP mux3 CP alu
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd 2016/03/13.22:45:14 P.20131013
-EN work/aludec 1457935748 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd \
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd 2016/04/17.14:42:16 P.20131013
+EN work/aludec 1460952687 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd \
       PB ieee/std_logic_1164 1370735607
-AR work/aludec/behave 1457935749 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd \
-      EN work/aludec 1457935748
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd 2016/03/13.22:59:47 P.20131013
-EN work/maindec 1457935746 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd \
+AR work/aludec/behave 1460952688 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd \
+      EN work/aludec 1460952687
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd 2016/04/17.14:43:56 P.20131013
+EN work/maindec 1460952685 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd \
       PB ieee/std_logic_1164 1370735607
-AR work/maindec/behave 1457935747 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd \
-      EN work/maindec 1457935746
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd 2014/03/09.16:35:30 P.20131013
-EN work/mips_fpga_interface 1457935762 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd \
-      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609 \
-      PB ieee/NUMERIC_STD 1370735611
-AR work/mips_fpga_interface/test_fpga 1457935763 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd \
-      EN work/mips_fpga_interface 1457935762 CP top
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd 2016/03/13.22:45:04 P.20131013
-FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd 2014/03/09.18:15:26 P.20131013
-EN work/top 1457935760 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd \
+AR work/maindec/behave 1460952686 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd \
+      EN work/maindec 1460952685
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd 2016/04/17.15:02:13 P.20131013
+EN work/dmem 1460952695 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd \
+      PB ieee/std_logic_1164 1370735607 PB std/TEXTIO 1370735606 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609 PB ieee/NUMERIC_STD 1370735611
+AR work/dmem/behave 1460952696 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd \
+      EN work/dmem 1460952695
+EN work/imem 1460952697 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd \
+      PB ieee/std_logic_1164 1370735607 PB std/TEXTIO 1370735606 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609 PB ieee/NUMERIC_STD 1370735611
+AR work/imem/behave 1460952698 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd \
+      EN work/imem 1460952697
+FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd 2014/03/09.18:15:26 P.20131013
+EN work/top 1460952699 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd \
       PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
-AR work/top/test 1457935761 \
-      FL //cs1/cs_students/ijones16/CS401_CA/EX_03/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd \
-      EN work/top 1457935760 CP mips CP imem CP dmem
+AR work/top/test 1460952700 \
+      FL //cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd \
+      EN work/top 1460952699 CP mips CP imem CP dmem
 FL C:/CS401/MIPS_CPU_FPGA_AND_SIM_V3/mips/mips.vhd 2014/03/09.14:58:11 P.20131013
 FL C:/CS401/MIPS_CPU_FPGA_AND_SIM_V3/mips/mips_alu.vhd 2014/03/09.14:48:58 P.20131013
 FL C:/CS401/MIPS_CPU_FPGA_AND_SIM_V3/mips/mips_building_blocks.vhd 2014/03/09.15:05:48 P.20131013
@@ -170,3 +161,20 @@ FL C:/CS401/mips_cpu_v3_fpga/mips/mips_decoder_main.vhd 2014/03/09.13:56:42 P.20
 FL C:/CS401/mips_cpu_v3_fpga/mips/mips_fpga_interface.vhd 2014/03/09.16:35:30 P.20131013
 FL C:/CS401/mips_cpu_v3_fpga/mips/mips_mem.vhd 2014/03/09.14:45:30 P.20131013
 FL C:/CS401/mips_cpu_v3_fpga/mips/mips_top.vhd 2014/03/09.15:56:13 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd 2016/03/13.23:17:56 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd 2016/03/13.22:55:22 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd 2016/03/13.23:26:22 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd 2016/03/13.23:09:45 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd 2016/03/13.23:12:41 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd 2014/03/09.13:57:10 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd 2016/03/13.23:05:01 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd 2014/03/09.16:35:30 P.20131013
+EN work/mips_fpga_interface 1457937999 \
+      FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609 \
+      PB ieee/NUMERIC_STD 1370735611
+AR work/mips_fpga_interface/test_fpga 1457938000 \
+      FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd \
+      EN work/mips_fpga_interface 1457937999 CP top
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd 2016/03/13.23:45:36 P.20131013
+FL C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd 2014/03/09.18:15:26 P.20131013

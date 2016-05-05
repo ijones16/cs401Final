@@ -1,1 +1,1 @@
-vhdl work "../mips_mem.vhd"
+vhdl work "mips_mem.vhd"

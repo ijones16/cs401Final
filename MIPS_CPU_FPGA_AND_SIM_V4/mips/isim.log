@@ -20,13 +20,27 @@ Finished circuit initialization process.
 at 0 ps, Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 50 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 60 ns(5), Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 70 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 70 ns(5), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 70 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 600 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 610 ns(5), Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 620 ns(4), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 620 ns(5), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-at 620 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 60 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 550 ns(7), Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 580 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 590 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /testbench/dut/mips1/dp/rf/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /testbench/dut/mips1/dp/rf/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /testbench/dut/imem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 0 ps, Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 50 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 60 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 550 ns(7), Instance /testbench/dut/dmem1/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 580 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 590 ns(6), Instance /testbench/dut/mips1/dp/mainalu/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).

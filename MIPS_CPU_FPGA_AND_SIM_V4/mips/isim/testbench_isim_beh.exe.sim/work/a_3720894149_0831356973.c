@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//cs1/CS_Students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd";
+static const char *ng0 = "//cs1/CS_Students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd";
 extern char *IEEE_P_1242562249;
 
 int ieee_p_1242562249_sub_1657552908_1035706684(char *, char *, char *);

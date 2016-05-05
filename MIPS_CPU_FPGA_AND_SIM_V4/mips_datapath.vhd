@@ -5,9 +5,9 @@ use IEEE.NUMERIC_STD.all;
 entity datapath is  -- MIPS datapath
   port(clk, reset:        in  STD_LOGIC;
        memtoreg, pcsrc:   in  STD_LOGIC;
-       regdst:     		  in  STD_LOGIC;
-		 alusrc: 			  in STD_LOGIC_VECTOR(1 downto 0);
-       regwrite, jump:    in  STD_LOGIC;
+       regdst:    in  STD_LOGIC;
+       alusrc: in STD_LOGIC_VECTOR(1 downto 0);
+		 regwrite, jump:    in  STD_LOGIC;
        alucontrol:        in  STD_LOGIC_VECTOR(3 downto 0);
        zero:              out STD_LOGIC;
        pc:                inout STD_LOGIC_VECTOR(31 downto 0);
@@ -47,8 +47,8 @@ architecture struct of datapath is
          y: out STD_LOGIC_VECTOR(31 downto 0));
   end component;
   component zeroext
-	 port(a: in STD_LOGIC_VECTOR(15 downto 0);
-		   y: out STD_LOGIC_VECTOR(31 downto 0));
+    port(a: in  STD_LOGIC_VECTOR(15 downto 0);
+         y: out STD_LOGIC_VECTOR(31 downto 0));
   end component;
   component flopr generic(width: integer);
     port(clk, reset: in  STD_LOGIC;
@@ -61,13 +61,13 @@ architecture struct of datapath is
          y:      out STD_LOGIC_VECTOR(width-1 downto 0));
   end component;
   component mux3 generic(width: integer);
-	port(d0, d1, d2: in STD_LOGIC_VECTOR(width-1 downto 0);
-		  s:          in STD_LOGIC_VECTOR(1 downto 0);
-		  y:			  out STD_LOGIC_VECTOR(width-1 downto 0));
+    port(d0, d1, d2: in  STD_LOGIC_VECTOR(width-1 downto 0);
+         s:      in  STD_LOGIC_VECTOR(1 downto 0);
+         y:      out STD_LOGIC_VECTOR(width-1 downto 0));
   end component;
   signal writereg: STD_LOGIC_VECTOR(4 downto 0);
   signal pcjump, pcnext, pcnextbr, pcplus4, pcbranch: STD_LOGIC_VECTOR(31 downto 0);
-  signal signimm, signimmsh, zeroimm: STD_LOGIC_VECTOR(31 downto 0);
+  signal signimm, zeroimm, signimmsh: STD_LOGIC_VECTOR(31 downto 0);
   signal srca, srcb, result: STD_LOGIC_VECTOR(31 downto 0);
 begin
   -- next PC logic

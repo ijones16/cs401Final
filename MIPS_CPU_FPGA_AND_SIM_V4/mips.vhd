@@ -27,17 +27,17 @@ architecture struct of mips is
     port(op, funct:          in  STD_LOGIC_VECTOR(5 downto 0);
          zero:               in  STD_LOGIC;
          memtoreg, memwrite: out STD_LOGIC;
-         pcsrc:              out STD_LOGIC;
-			alusrc:             out STD_LOGIC_VECTOR(1 downto 0);
+         pcsrc:      		out STD_LOGIC;
+         alusrc: 				out STD_LOGIC_VECTOR(1 downto 0);
          regdst, regwrite:   out STD_LOGIC;
          jump:               out STD_LOGIC;
-         alucontrol:         out STD_LOGIC_VECTOR(3 downto 0));
+			alucontrol:         out STD_LOGIC_VECTOR(3 downto 0));
   end component;
   component datapath
     port(clk, reset:        in  STD_LOGIC;
          memtoreg, pcsrc:   in  STD_LOGIC;
-			alusrc:            in  STD_LOGIC_VECTOR(1 downto 0);
-         regdst:            in  STD_LOGIC;
+			alusrc: 				in STD_LOGIC_VECTOR(1 downto 0);
+			regdst:    in  STD_LOGIC;
          regwrite, jump:    in  STD_LOGIC;
          alucontrol:        in  STD_LOGIC_VECTOR(3 downto 0);
          zero:              out STD_LOGIC;

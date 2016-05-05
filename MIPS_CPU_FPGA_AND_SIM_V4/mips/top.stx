@@ -1,57 +1,108 @@
-Release 14.6 - xst P.68d (nt64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:/CS401/mips_cpu_v3_fpga/mips/xst/projnav.tmp
+--> Parameter TMPDIR set to Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.29 secs
  
---> Parameter xsthdpdir set to C:/CS401/mips_cpu_v3_fpga/mips/xst
+--> Parameter xsthdpdir set to Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.29 secs
  
 --> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
 
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips_building_blocks.vhd" in Library work.
-Architecture behave of Entity regfile is up to date.
-Architecture behave of Entity adder is up to date.
-Architecture behave of Entity sl2 is up to date.
-Architecture behave of Entity signext is up to date.
-Architecture asynchronous of Entity flopr is up to date.
-Architecture behave of Entity mux2 is up to date.
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips_alu.vhd" in Library work.
-Architecture behave of Entity alu is up to date.
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips_decoder_main.vhd" in Library work.
-Architecture behave of Entity maindec is up to date.
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips_decoder_alu.vhd" in Library work.
-Architecture behave of Entity aludec is up to date.
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips_controller.vhd" in Library work.
-Architecture struct of Entity controller is up to date.
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips_datapath.vhd" in Library work.
-Architecture struct of Entity datapath is up to date.
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips.vhd" in Library work.
-Architecture struct of Entity mips is up to date.
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips_mem.vhd" in Library work.
-Architecture behave of Entity dmem is up to date.
-Architecture behave of Entity imem is up to date.
-Compiling vhdl file "C:/CS401/mips_cpu_v3_fpga/mips/mips_top.vhd" in Library work.
-Entity <top> compiled.
-Entity <top> (Architecture <test>) compiled.
+WARNING:HDLParsers:3607 - Unit work/top is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd".
+WARNING:HDLParsers:3607 - Unit work/top/test is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd".
+WARNING:HDLParsers:3607 - Unit work/mips is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd".
+WARNING:HDLParsers:3607 - Unit work/mips/struct is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd".
+WARNING:HDLParsers:3607 - Unit work/dmem is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd".
+WARNING:HDLParsers:3607 - Unit work/dmem/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd".
+WARNING:HDLParsers:3607 - Unit work/imem is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd".
+WARNING:HDLParsers:3607 - Unit work/imem/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd".
+WARNING:HDLParsers:3607 - Unit work/controller is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd".
+WARNING:HDLParsers:3607 - Unit work/controller/struct is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd".
+WARNING:HDLParsers:3607 - Unit work/datapath is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd".
+WARNING:HDLParsers:3607 - Unit work/datapath/struct is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd".
+WARNING:HDLParsers:3607 - Unit work/alu is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd".
+WARNING:HDLParsers:3607 - Unit work/alu/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd".
+WARNING:HDLParsers:3607 - Unit work/regfile is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/adder is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/sl2 is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/signext is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/zeroext is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/flopr is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux2 is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux3 is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/regfile/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/adder/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/sl2/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/signext/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/zeroext/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/flopr/asynchronous is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux2/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux3/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd".
+WARNING:HDLParsers:3607 - Unit work/aludec is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd".
+WARNING:HDLParsers:3607 - Unit work/aludec/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd".
+WARNING:HDLParsers:3607 - Unit work/maindec is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd".
+WARNING:HDLParsers:3607 - Unit work/maindec/behave is now defined in a different file.  It was defined in "C:/Users/enichols16/Desktop/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd", and is now defined in "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd".
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd" in Library work.
+Entity <regfile> compiled.
+Entity <adder> compiled.
+Entity <sl2> compiled.
+Entity <signext> compiled.
+Entity <zeroext> compiled.
+Entity <flopr> compiled.
+Entity <mux2> compiled.
+Entity <mux3> compiled.
+Entity <regfile> (Architecture <behave>) compiled.
+Entity <adder> (Architecture <behave>) compiled.
+Entity <sl2> (Architecture <behave>) compiled.
+Entity <signext> (Architecture <behave>) compiled.
+Entity <zeroext> (Architecture <behave>) compiled.
+Entity <flopr> (Architecture <asynchronous>) compiled.
+Entity <mux2> (Architecture <behave>) compiled.
+Entity <mux3> (Architecture <behave>) compiled.
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_alu.vhd" in Library work.
+Entity <alu> compiled.
+Entity <alu> (Architecture <behave>) compiled.
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd" in Library work.
+Entity <maindec> compiled.
+Entity <maindec> (Architecture <behave>) compiled.
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_alu.vhd" in Library work.
+Entity <aludec> compiled.
+Entity <aludec> (Architecture <behave>) compiled.
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_controller.vhd" in Library work.
+Entity <controller> compiled.
+Entity <controller> (Architecture <struct>) compiled.
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_datapath.vhd" in Library work.
+Entity <datapath> compiled.
+Entity <datapath> (Architecture <struct>) compiled.
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips.vhd" in Library work.
+Entity <mips> compiled.
+Entity <mips> (Architecture <struct>) compiled.
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_mem.vhd" in Library work.
+Entity <dmem> compiled.
+Entity <dmem> (Architecture <behave>) compiled.
+Entity <imem> compiled.
+Entity <imem> (Architecture <behave>) compiled.
+Compiling vhdl file "//cs1/cs_students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_top.vhd" in Library work.
+Architecture test of Entity top is up to date.
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.32 secs
  
 --> 
 
-Total memory usage is 223216 kilobytes
+Total memory usage is 269600 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of warnings :   35 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

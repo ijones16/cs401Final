@@ -41,7 +41,8 @@ Compiling architecture behave of entity dmem [dmem_default]
 Compiling architecture test of entity top [top_default]
 Compiling architecture test_simulation of entity testbench
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 43 VHDL Units
 Built simulation executable Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips/testbench_isim_beh.exe
-Fuse Memory Usage: 38164 KB
-Fuse CPU Usage: 2608 ms
+Fuse Memory Usage: 38040 KB
+Fuse CPU Usage: 2764 ms

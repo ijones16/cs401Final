@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//cs1/CS_Students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd";
+static const char *ng0 = "//cs1/CS_Students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd";
 
 
 
@@ -44,7 +44,7 @@ static void work_a_2046343074_0831356973_p_0(char *t0)
     char *t15;
     char *t16;
 
-LAB0:    xsi_set_current_line(127, ng0);
+LAB0:    xsi_set_current_line(125, ng0);
     t1 = (t0 + 1352U);
     t2 = *((char **)t1);
     t3 = *((unsigned char *)t2);

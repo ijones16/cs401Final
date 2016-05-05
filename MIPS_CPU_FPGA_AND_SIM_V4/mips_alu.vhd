@@ -9,6 +9,7 @@ entity alu is -- Arithmetic/Logic unit with add/sub, AND, OR, set less than
        zero:       out STD_LOGIC);
 end;
 
+
 architecture behave of alu is
   signal b2, sum, slt: STD_LOGIC_VECTOR(31 downto 0);
 begin

@@ -34,7 +34,7 @@ begin
     wait for 5 ns;
   end process;
 
-  -- Generate reset for first two clock cycles
+  -- Generate reset for first two clock cy cles
   process begin
     reset <= '1';
     wait for 22 ns;
@@ -45,9 +45,10 @@ begin
   -- check that 7 gets written to address 84 at end of program
   process (clk) begin
     if (clk'event and clk = '0' and memwrite = '1') then
-      if ( to_integer(unsigned(dataadr)) = 76 and to_integer(unsigned(writedata)) = 7) then 
+	 --dataadr = the address, and check to make sure it equals
+	 if ( to_integer(unsigned(dataadr)) = 72 and to_integer(unsigned(writedata)) = 2) then 
         report "Simulation succeeded";
-	  elsif (dataadr /= 80) then 
+	  else  
         report "Simulation failed";
       end if;
     end if;

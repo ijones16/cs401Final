@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//cs1/CS_Students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd";
+static const char *ng0 = "//cs1/CS_Students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd";
 extern char *IEEE_P_1242562249;
 
 char *ieee_p_1242562249_sub_180853171_1035706684(char *, char *, int , int );
@@ -43,7 +43,7 @@ static void work_a_2251915414_4148422116_p_0(char *t0)
     unsigned char t12;
     char *t13;
 
-LAB0:    xsi_set_current_line(118, ng0);
+LAB0:    xsi_set_current_line(116, ng0);
     t1 = (t0 + 1192U);
     t2 = *((char **)t1);
     t3 = *((unsigned char *)t2);
@@ -66,7 +66,7 @@ LAB3:    t1 = (t0 + 3112);
     *((int *)t1) = 1;
 
 LAB1:    return;
-LAB2:    xsi_set_current_line(118, ng0);
+LAB2:    xsi_set_current_line(116, ng0);
     t1 = ieee_p_1242562249_sub_180853171_1035706684(IEEE_P_1242562249, t5, 0, 32);
     t6 = (t0 + 3192);
     t7 = (t6 + 56U);
@@ -77,7 +77,7 @@ LAB2:    xsi_set_current_line(118, ng0);
     xsi_driver_first_trans_fast_port(t6);
     goto LAB3;
 
-LAB5:    xsi_set_current_line(120, ng0);
+LAB5:    xsi_set_current_line(118, ng0);
     t2 = (t0 + 1352U);
     t7 = *((char **)t2);
     t2 = (t0 + 3192);

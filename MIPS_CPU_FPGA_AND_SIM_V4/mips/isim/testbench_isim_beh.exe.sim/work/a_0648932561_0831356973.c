@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//cs1/CS_Students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd";
+static const char *ng0 = "//cs1/CS_Students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd";
 extern char *IEEE_P_2592010699;
 
 
@@ -46,9 +46,9 @@ static void work_a_0648932561_0831356973_p_0(char *t0)
     char *t17;
     char *t18;
 
-LAB0:    xsi_set_current_line(112, ng0);
+LAB0:    xsi_set_current_line(109, ng0);
 
-LAB3:    t1 = (t0 + 4520);
+LAB3:    t1 = (t0 + 4528);
     t3 = (t0 + 1032U);
     t4 = *((char **)t3);
     t6 = ((IEEE_P_2592010699) + 4024);
@@ -64,7 +64,7 @@ LAB3:    t1 = (t0 + 4520);
     t11 = (t11 + 1);
     t9 = (t8 + 12U);
     *((unsigned int *)t9) = t11;
-    t9 = (t0 + 4464U);
+    t9 = (t0 + 4472U);
     t3 = xsi_base_array_concat(t3, t5, t6, (char)97, t1, t7, (char)97, t4, t9, (char)101);
     t11 = (16U + 16U);
     t12 = (32U != t11);

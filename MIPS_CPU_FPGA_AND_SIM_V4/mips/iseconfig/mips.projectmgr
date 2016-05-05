@@ -7,19 +7,22 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode></ClosedNode>
          <ClosedNode>/mips_fpga_interface - test_fpga C:|CS401|MIPS_CPU_FPGA_AND_SIM_V3|mips|mips_fpga_interface.vhd/mips_cpu - top - test/mips1 - mips - struct/dp - datapath - struct</ClosedNode>
          <ClosedNode>/mips_fpga_interface - test_fpga Z:|401_Computer_Architecture|Session_07_MIPS_Architecture|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd/mips_cpu - top - test</ClosedNode>
+         <ClosedNode>/mips_fpga_interface - test_fpga Z:|CS401_CA|EX04|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd</ClosedNode>
+         <ClosedNode>/mips_fpga_interface - test_fpga Z:|CS401_CA|EX04|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd/mips_cpu - top - test/mips1 - mips - struct</ClosedNode>
          <ClosedNode>/top - test C:|CS401|mips_cpu_v2_sim_reorg|mips|mips_top.vhd/mips1 - mips - struct</ClosedNode>
          <ClosedNode>/top - test C:|CS401|mips_cpu_v2_sim_reorg|mips|mips_top.vhd/mips1 - mips - struct/cont - controller - struct</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>mips_fpga_interface - test_fpga (Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd)</SelectedItem>
+         <SelectedItem>xc3s1000-5ft256</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001bf000000020000000000000000000000000200000064ffffffff000000810000000300000002000001bf0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000083000000020000000000000000000000000200000064ffffffff000000810000000300000002000000830000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>mips_fpga_interface - test_fpga (Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_fpga_interface.vhd)</CurrentItem>
+      <CurrentItem>xc3s1000-5ft256</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -27,13 +30,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000173000000010000000100000000000000000000000064ffffffff000000810000000000000001000001730000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -62,18 +65,18 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
+         <SelectedItem>Design Utilities</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000020a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000020a0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -81,24 +84,24 @@
          <ClosedNode>/mips_fpga_interface - test_fpga C:|CS401|MIPS_CPU_FPGA_AND_SIM_V3|mips|mips_fpga_interface.vhd/mips_cpu - top - test</ClosedNode>
          <ClosedNode>/mips_fpga_interface - test_fpga C:|CS401|MIPS_CPU_FPGA_AND_SIM_V3|mips|mips_fpga_interface.vhd/mips_cpu - top - test/mips1 - mips - struct/dp - datapath - struct</ClosedNode>
          <ClosedNode>/mips_fpga_interface - test_fpga C:|CS401|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd/mips_cpu - top - test/mips1 - mips - struct/dp - datapath - struct</ClosedNode>
-         <ClosedNode>/mips_fpga_interface - test_fpga C:|Users|IJONES16|Desktop|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd</ClosedNode>
+         <ClosedNode>/mips_fpga_interface - test_fpga C:|Users|enichols16|Desktop|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd/mips_cpu - top - test/mips1 - mips - struct/dp - datapath - struct</ClosedNode>
          <ClosedNode>/mips_fpga_interface - test_fpga Z:|401_Computer_Architecture|Session_07_MIPS_Architecture|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd</ClosedNode>
          <ClosedNode>/mips_fpga_interface - test_fpga Z:|401_Computer_Architecture|Session_07_MIPS_Architecture|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd/mips_cpu - top - test/mips1 - mips - struct/cont - controller - struct</ClosedNode>
+         <ClosedNode>/mips_fpga_interface - test_fpga Z:|CS401_CA|EX03|MIPS_CPU_FPGA_AND_SIM_V4|mips_fpga_interface.vhd/mips_cpu - top - test/mips1 - mips - struct</ClosedNode>
          <ClosedNode>/testbench - test C:|CS401|mips_cpu_v2_sim_reorg|mips|mips_testbench.vhd/dut - top - test/mips1 - mips - struct</ClosedNode>
          <ClosedNode>/testbench - test_simulation C:|CS401|MIPS_CPU_FPGA_AND_SIM_V3|mips|mips_testbench.vhd</ClosedNode>
          <ClosedNode>/testbench - test_simulation C:|CS401|MIPS_CPU_FPGA_AND_SIM_V4|mips_testbench.vhd</ClosedNode>
-         <ClosedNode>/testbench - test_simulation C:|Users|IJONES16|Desktop|MIPS_CPU_FPGA_AND_SIM_V4|mips_testbench.vhd</ClosedNode>
          <ClosedNode>/testbench - test_simulation Z:|401_Computer_Architecture|Session_07_MIPS_Architecture|MIPS_CPU_FPGA_AND_SIM_V4|mips_testbench.vhd/dut - top - test</ClosedNode>
          <ClosedNode>/top - test C:|CS401|mips_cpu_v2_sim_reorg|mips|mips_top.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>md - maindec - behave (Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd)</SelectedItem>
+         <SelectedItem>testbench - test_simulation (Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_testbench.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >46</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001bf000000020000000000000000000000000200000064ffffffff000000810000000300000002000001bf0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>md - maindec - behave (Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_decoder_main.vhd)</CurrentItem>
+      <CurrentItem>testbench - test_simulation (Z:/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_testbench.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -106,13 +109,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>Design Utilities</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000020a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000020a0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000001f40000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -123,10 +126,24 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000020a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000020a0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff0000000000000002000001990000015d01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <SourceProcessView>000000ff0000000000000002000000ee000000f001000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
 </Project>

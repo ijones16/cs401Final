@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "//cs1/CS_Students/ijones16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd";
+static const char *ng0 = "//cs1/CS_Students/enichols16/CS401_CA/EX04/MIPS_CPU_FPGA_AND_SIM_V4/mips_building_blocks.vhd";
 extern char *IEEE_P_2592010699;
 
 
@@ -70,7 +70,7 @@ static void work_a_1218917173_0831356973_p_0(char *t0)
     char *t42;
     char *t43;
 
-LAB0:    xsi_set_current_line(107, ng0);
+LAB0:    xsi_set_current_line(105, ng0);
     t1 = (t0 + 1032U);
     t2 = *((char **)t1);
     t3 = (15 - 15);
@@ -84,7 +84,7 @@ LAB0:    xsi_set_current_line(107, ng0);
         goto LAB3;
 
 LAB4:
-LAB7:    t26 = (t0 + 4536);
+LAB7:    t26 = (t0 + 4544);
     t28 = (t0 + 1032U);
     t29 = *((char **)t28);
     t31 = ((IEEE_P_2592010699) + 4024);
@@ -100,7 +100,7 @@ LAB7:    t26 = (t0 + 4536);
     t36 = (t36 + 1);
     t34 = (t33 + 12U);
     *((unsigned int *)t34) = t36;
-    t34 = (t0 + 4464U);
+    t34 = (t0 + 4472U);
     t28 = xsi_base_array_concat(t28, t30, t31, (char)97, t26, t32, (char)97, t29, t34, (char)101);
     t36 = (16U + 16U);
     t37 = (32U != t36);
@@ -119,7 +119,7 @@ LAB2:    t43 = (t0 + 2672);
     *((int *)t43) = 1;
 
 LAB1:    return;
-LAB3:    t9 = (t0 + 4520);
+LAB3:    t9 = (t0 + 4528);
     t11 = (t0 + 1032U);
     t12 = *((char **)t11);
     t14 = ((IEEE_P_2592010699) + 4024);
@@ -135,7 +135,7 @@ LAB3:    t9 = (t0 + 4520);
     t19 = (t19 + 1);
     t17 = (t16 + 12U);
     *((unsigned int *)t17) = t19;
-    t17 = (t0 + 4464U);
+    t17 = (t0 + 4472U);
     t11 = xsi_base_array_concat(t11, t13, t14, (char)97, t9, t15, (char)97, t12, t17, (char)101);
     t19 = (16U + 16U);
     t20 = (32U != t19);
